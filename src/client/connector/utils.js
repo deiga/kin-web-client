@@ -30,7 +30,8 @@ export const ALLOWED_PARAMS = [
     { role: "source", provider: "outlook" },
     { role: "source", provider: "todoist" },
     { role: "source", provider: "trello" },
-    { role: "source", provider: "wunderlist" }
+    { role: "source", provider: "wunderlist" },
+    { role: "source", provider: "foursquare" },
 ];
 
 export function parse_params(...query_strings) {

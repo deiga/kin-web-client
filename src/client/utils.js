@@ -413,7 +413,11 @@ export const providers = {
     },
     wunderlist: {
         logo: require("../public/imgs/providers/wunderlist@3x.png"),
-        settings_sub_title: "Tasks with a due date"
+        settings_sub_title: "Tasks with a due date",
+    },
+    foursquare: {
+        logo: require("../public/imgs/providers/foursquare@3x.png"),
+        settings_sub_title: "Your check-ins"
     }
 };
 
