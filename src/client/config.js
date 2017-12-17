@@ -25,9 +25,9 @@ export const GMAP_PUBLIC_TOKEN = "";
  * e.g.: kin.today
  */
 export const API_HOSTNAME = {
-    dev: "",
+    dev: "dev.kin.today:8999",
     test: "placeholder",
-    prod: ""
+    prod: "",
 }[KIN_ENV_NAME];
 
 /*
